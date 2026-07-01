@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Pau Martí - Profesor de Inteligencia Artificial y creador de proyectos digitales">
+    <title>Pau Martí | Portfolio Express</title>
+    
+    <!-- Fuentes de Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Iconos de Lucide -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- Estilos -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Pau<span>Martí</span></a>
+            <ul class="nav-links">
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto" class="btn btn-outline">Contacto</a></li>
+            </ul>
+            <button class="menu-toggle" aria-label="Abrir menú">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="inicio" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="badge">Portfolio Express</span>
+                <h1 class="hero-title">Hola, soy <span class="highlight">Pau Martí</span></h1>
+                <p class="hero-subtitle">Profesor de Inteligencia Artificial y creador de proyectos digitales.</p>
+                <div class="hero-actions">
+                    <a href="#proyectos" class="btn btn-primary">Ver proyectos <i data-lucide="arrow-right"></i></a>
+                    <a href="#sobre-mi" class="btn btn-secondary">Conóceme más</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <!-- Imagen decorativa con CSS puro y formas -->
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="profile-placeholder">
+                    <i data-lucide="user" class="profile-icon"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sección Sobre Mí -->
+    <section id="sobre-mi" class="section bg-light">
+        <div class="container section-container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Sobre mí</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Soy un apasionado de la tecnología y la educación. Como <strong>Profesor de Inteligencia Artificial</strong>, me dedico a desmitificar la IA y enseñar a otros cómo aprovecharla para crear soluciones innovadoras.</p>
+                    <p>Además de la docencia, soy <strong>creador de proyectos digitales</strong>. Me encanta diseñar y desarrollar aplicaciones web, automatizar procesos y explorar las últimas tendencias tecnológicas para convertirlas en productos útiles y atractivos.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">+5</span>
+                        <span class="stat-label">Años de experiencia</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">+100</span>
+                        <span class="stat-label">Alumnos formados</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">+20</span>
+                        <span class="stat-label">Proyectos creadados</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Habilidades -->
+    <section id="habilidades" class="section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Mis Habilidades</h2>
+                <div class="divider"></div>
+                <p class="section-description">Áreas en las que me especializo y aporto valor.</p>
+            </div>
+            
+            <div class="skills-grid">
+                <!-- Tarjeta 1 -->
+                <div class="card skill-card">
+                    <div class="card-icon bg-blue emoji-icon">
+                        🧠
+                    </div>
+                    <h3>Inteligencia Artificial</h3>
+                    <p>Desarrollo e implementación de modelos de IA, machine learning y procesamiento de lenguaje natural.</p>
+                </div>
+                
+                <!-- Tarjeta 2 -->
+                <div class="card skill-card">
+                    <div class="card-icon bg-green emoji-icon">
+                        ⚡
+                    </div>
+                    <h3>Automatizaciones</h3>
+                    <p>Creación de flujos de trabajo automatizados para optimizar procesos y ahorrar tiempo valioso.</p>
+                </div>
+                
+                <!-- Tarjeta 3 -->
+                <div class="card skill-card">
+                    <div class="card-icon bg-purple emoji-icon">
+                        📱
+                    </div>
+                    <h3>Creación de Apps</h3>
+                    <p>Diseño y desarrollo de aplicaciones web y móviles modernas, responsivas y centradas en el usuario.</p>
+                </div>
+                
+                <!-- Tarjeta 4 -->
+                <div class="card skill-card">
+                    <div class="card-icon bg-orange emoji-icon">
+                        🎓
+                    </div>
+                    <h3>Formación Online</h3>
+                    <p>Diseño de cursos, talleres y material educativo digital de alta calidad sobre tecnología e IA.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Proyectos -->
+    <section id="proyectos" class="section bg-light">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Proyectos Destacados</h2>
+                <div class="divider"></div>
+                <p class="section-description">Una selección de mis trabajos más recientes.</p>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Proyecto 1 -->
+                <div class="card project-card">
+                    <div class="project-img bg-gradient-1">
+                        <span class="project-emoji">🤖</span>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag">Inteligencia Artificial</span>
+                        <h3>Asistente Educativo Virtual</h3>
+                        <p>Un chatbot basado en LLMs diseñado para ayudar a estudiantes a resolver dudas de programación en tiempo real.</p>
+                        <a href="#" class="project-link">Ver detalles <i data-lucide="arrow-up-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Proyecto 2 -->
+                <div class="card project-card">
+                    <div class="project-img bg-gradient-2">
+                        <span class="project-emoji">📨</span>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag">Automatizaciones</span>
+                        <h3>AutoMail Pro</h3>
+                        <p>Sistema de automatización para clasificación y respuesta de correos electrónicos utilizando IA generativa.</p>
+                        <a href="#" class="project-link">Ver detalles <i data-lucide="arrow-up-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Proyecto 3 -->
+                <div class="card project-card">
+                    <div class="project-img bg-gradient-3">
+                        <span class="project-emoji">📊</span>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag">Creación de Apps</span>
+                        <h3>LearnDash App</h3>
+                        <p>Plataforma web interactiva para la gestión y seguimiento de cursos online con dashboard analítico.</p>
+                        <a href="#" class="project-link">Ver detalles <i data-lucide="arrow-up-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="section">
+        <div class="container contact-container">
+            <div class="contact-card card">
+                <div class="contact-info">
+                    <h2>¿Trabajamos juntos?</h2>
+                    <p>Estoy disponible para proyectos freelance, consultorías sobre IA y oportunidades de formación. ¡Me encantaría escuchar tus ideas!</p>
+                    <ul class="contact-list">
+                        <li><i data-lucide="mail"></i> hola@paumarti.com</li>
+                        <li><i data-lucide="map-pin"></i> España</li>
+                    </ul>
+                </div>
+                <div class="contact-action">
+                    <a href="mailto:hola@paumarti.com" class="btn btn-primary btn-large">
+                        <i data-lucide="send"></i> Contactar ahora
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-logo">Pau<span>Martí</span></div>
+            <div class="footer-social">
+                <a href="#" aria-label="Twitter"><i data-lucide="twitter"></i></a>
+                <a href="#" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+                <a href="#" aria-label="GitHub"><i data-lucide="github"></i></a>
+            </div>
+            <p class="copyright">&copy; 2026 Pau Martí. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Script principal -->
+    <script src="script.js"></script>
+</body>
+</html>
